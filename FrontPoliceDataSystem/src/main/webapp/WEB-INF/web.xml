@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+	<display-name>PaginaconServlets</display-name>
+	<description>Pagina de la Policia Anti Narcoticps
+	</description>
+	<distributable />
+	<servlet>
+		<servlet-name>PrimerServlet</servlet-name>
+		<servlet-class>PrimerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrimerServlet</servlet-name>
+		<url-pattern>/primerServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
